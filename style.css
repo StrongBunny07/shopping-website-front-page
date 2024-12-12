@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background: #fff;
+}
+
+.navbar{
+    background: #0f0f0f;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-logo a{
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+    justify-content: left;
+    text-decoration: none;
+}
+
+.navbar-connect a{
+    color: #fff;
+    display: flex;
+    font-size: 40px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar-logo a,.navbar-connect a{
+    font-size: 24px;
+    transition: 0.6s ease-in-out;
+}
+
+.navbar-logo a:hover,.navbar-connect a:hover{
+    color: #daa520;
+}
+
+
+.navbar-menu{
+    padding-inline: 280px;
+    gap: 40px;
+    color:#fff;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    transition: 0.6s ease-in-out;
+}
+
+.navbar-menu h4:hover{
+    font-style: italic;
+    color: #daa520;
+}
+
+.Hitlist{
+    padding: 10px;
+}
+
+.hitlist-sale a{
+    color:#000000;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    transition: 0.6s ease-in-out;
+    font-style:bold;
+}
+
+.hitlist-sale a:hover{
+    color: goldenrod;
+    font-size: 44px;
+}
+
+.display-shirt{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly
+}
+.display-shirt img{
+    width: 250px;
+    height: auto;
+}
+
+.display-shirt button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: auto;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #000000;
+    transition: all 0.7s ease-in-out;
+}
+
+.display-shirt button:hover{
+    color:#000000;
+    background-color: goldenrod;
+}
