@@ -75,13 +75,13 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center;
-    transition: 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
     font-style:bold;
 }
 
 .hitlist-sale a:hover{
     color: goldenrod;
-    font-size: 44px;
+    font-size: 42px;
 }
 
 .display-shirt{
